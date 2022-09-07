@@ -14,6 +14,7 @@
     background: linear-gradient(180deg, rgba(7, 61, 147, 0.4) 0%, rgba(139, 29, 163, 0.4) 100%);
     box-shadow: inset 0px 95px 95px -50px rgba(31, 41, 51, 0.3), inset 0px 3px 18px rgba(175, 191, 206, 0.3), inset 0px 1px 40px rgba(228, 234, 239, 0.2);
     backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
 }
 
 .main-page .navbar-brand {
@@ -40,16 +41,8 @@
     border: none;
 }
 
-.main-page .motto .col-lg-4 {
-    padding-left: 0;
-}
-
-.main-page .motto .col-lg-8 {
-    padding-right: 0;
-}
-
-.main-page .motto h2 {
-    line-height: 1.7;
+.main-page .fs-3rem {
+    font-size: 3rem;
 }
 
 .main-page .card {
@@ -58,7 +51,9 @@
     color: #101C461C;
     box-shadow: inset 0px 4px 24px rgba(175, 191, 206, 0.24);
     filter: drop-shadow(0px 1.5px 6px rgba(255, 255, 255, 0.1));
+    -ms-filter: drop-shadow(0px 1.5px 6px rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
 }
 
 .main-page .card-img-top {

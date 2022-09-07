@@ -1,33 +1,15 @@
-@media screen and (min-width: 1200px) {
-    .main-page .motto h2 {
-        margin-right: 100px;
-    }
-}
+@media screen and (min-width: 1200px) {}
 
-@media screen and (max-width: 1200px) {
-    .main-page .motto h2 {
-        margin-right: 24%;
-    }
-}
+@media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 992px) {
     .main-page .nav-link {
         border: none;
         line-height: 2.2;
     }
-    .main-page .motto .col-lg-4 {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .main-page .motto h2 {
-        margin-right: 0;
-    }
 }
 
 @media screen and (max-width: 767px) {
-    .main-page .motto .col-lg-4 {
-        max-width: 540px;
-    }
     .main-page .about-us-image {
         max-width: 50%;
         display: block;
