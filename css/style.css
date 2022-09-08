@@ -36,12 +36,21 @@
     border-left: none;
 }
 
+.main-page .navbar-toggler-icon {
+    background-image: none;
+}
+
+.main-page .navbar-toggler-icon i {
+    font-size: 2rem;
+    color: #AAB8EB;
+}
+
 .main-page .navbar-toggler {
     color: #E3E7F8;
     border: none;
 }
 
-.main-page .fs-3rem {
+.main-page .fr-text {
     font-size: 3rem;
 }
 

@@ -3,6 +3,9 @@
 @media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 992px) {
+    .main-page .fr-text {
+        font-size: 2.6rem;
+    }
     .main-page .nav-link {
         border: none;
         line-height: 2.2;
@@ -10,10 +13,17 @@
 }
 
 @media screen and (max-width: 767px) {
+    .main-page .fr-text {
+        font-size: 2.3rem;
+    }
     .main-page .about-us-image {
         max-width: 50%;
         display: block;
     }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .main-page .fr-text {
+        font-size: 1.8rem;
+    }
+}
