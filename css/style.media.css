@@ -6,15 +6,21 @@
     .main-page .fr-text {
         font-size: 2.6rem;
     }
-    .main-page .nav-link {
+    .main-page .navbar-expand-lg .navbar-nav .nav-link {
         border: none;
         line-height: 2.2;
     }
+    .main-page .footer .nav-link {
+        padding: 0 11px;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .main-page .fr-text {
         font-size: 2.3rem;
+    }
+    .main-page .about-us-text {
+        padding-top: 0.5rem;
     }
     .main-page .about-us-image {
         max-width: 50%;
@@ -25,5 +31,8 @@
 @media screen and (max-width: 576px) {
     .main-page .fr-text {
         font-size: 1.8rem;
+    }
+    .main-page .footer .nav-link {
+        padding: 0 9px;
     }
 }
